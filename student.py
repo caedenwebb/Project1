@@ -27,6 +27,6 @@ class Student:
         else:
             return "F"
 
-    def get_student_info(self):
+    def __str__(self):
         return (self.name, self.score, self.get_grade())
       #  return f"{self.name} has a score of {self.score} so their grade is {self.get_grade()}"
