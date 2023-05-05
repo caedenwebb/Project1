@@ -1,7 +1,7 @@
 class Student:
-    def __init__(self):
-        self.name = ""
-        self.score = 0
+     def __init__(self, name, score):
+        self.name = name
+        self.score = score
 
     def set_name(self, name):
         self.name = name
