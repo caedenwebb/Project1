@@ -1,5 +1,5 @@
 class Student:
-     def __init__(self, name, score):
+    def __init__(self, name, score):
         self.name = name
         self.score = score
         self.__grade = None
@@ -20,5 +20,4 @@ class Student:
         return self.__grade
 
     def __str__(self):
-        return (self.name, self.score, self.get_grade())
-      #  return f"{self.name} has a score of {self.score} so their grade is {self.get_grade()}"
+        return f"{self.name} has a score of {self.score} so their grade is {self.get_grade()}"
