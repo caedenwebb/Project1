@@ -2,6 +2,7 @@ class Student:
      def __init__(self, name, score):
         self.name = name
         self.score = score
+        self.__grade = None
 
     def set_name(self, name):
         self.name = name
@@ -12,20 +13,11 @@ class Student:
     def set_score(self, score):
         self.score = score
 
-    def get_score(self):
-        return self.score
+    def set_grade(self, grade):
+        self.__grade = grade
 
     def get_grade(self):
-        if self.score >= 90:
-            return "A"
-        elif self.score >= 80:
-            return "B"
-        elif self.score >= 70:
-            return "C"
-        elif self.score >= 60:
-            return "D"
-        else:
-            return "F"
+        return self.__grade
 
     def __str__(self):
         return (self.name, self.score, self.get_grade())
