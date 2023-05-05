@@ -10,11 +10,13 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+import control
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(757, 218)
+        MainWindow.resize(795, 660)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.title = QtWidgets.QLabel(self.centralwidget)
@@ -25,13 +27,21 @@ class Ui_MainWindow(object):
         self.label_num_students.setObjectName("label_num_students")
         self.num_students = QtWidgets.QLineEdit(self.centralwidget)
         self.num_students.setGeometry(QtCore.QRect(270, 70, 113, 22))
+        self.num_students.setPlaceholderText("")
         self.num_students.setObjectName("num_students")
-        self.NextButton = QtWidgets.QPushButton(self.centralwidget)
-        self.NextButton.setGeometry(QtCore.QRect(470, 130, 93, 28))
-        self.NextButton.setObjectName("NextButton")
+        self.StudentDataLabel = QtWidgets.QLabel(self.centralwidget)
+        self.StudentDataLabel.setGeometry(QtCore.QRect(80, 170, 191, 16))
+        self.StudentDataLabel.setObjectName("StudentDataLabel")
+        self.StudentData = QtWidgets.QTextEdit(self.centralwidget)
+        self.StudentData.setGeometry(QtCore.QRect(290, 170, 311, 91))
+        self.StudentData.setObjectName("StudentData")
+        self.calculateButton = QtWidgets.QPushButton(self.centralwidget)
+        self.calculateButton.setGeometry(QtCore.QRect(540, 280, 161, 31))
+        self.calculateButton.setObjectName("calculateButton")
+        self.calculateButton.clicked.connect(lambda:control.calculate_grades(self))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 757, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 795, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -46,7 +56,9 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Student Grade Calculator"))
         self.title.setText(_translate("MainWindow", "Student Grade Calculator"))
         self.label_num_students.setText(_translate("MainWindow", "Enter number of students: "))
-        self.NextButton.setText(_translate("MainWindow", "Next"))
+        self.StudentDataLabel.setText(_translate("MainWindow", "Enter student names and scores:"))
+        self.StudentData.setPlaceholderText(_translate("MainWindow", "Enter student names and scores: (separate names and scores by commas, and put one student on each line)"))
+        self.calculateButton.setText(_translate("MainWindow", "Calculate Grade Report"))
 
 
 if __name__ == "__main__":

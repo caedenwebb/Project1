@@ -1,10 +1,11 @@
 class Student:
-    def __init__(self):
-        pass
+    def __init__(self, name, score):
+        self.__name = name
+        self.__score = score
     def get_name(self):
-        pass
+        return self.__name
     def get_score(self):
-        pass
+        return self.__score
     def set_name(self, name):
         pass
     def set_score(self, score):

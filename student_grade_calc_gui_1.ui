@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>757</width>
-    <height>218</height>
+    <width>795</width>
+    <height>660</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -49,18 +49,47 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
    </widget>
-   <widget class="QPushButton" name="NextButton">
+   <widget class="QLabel" name="StudentDataLabel">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>130</y>
-      <width>93</width>
-      <height>28</height>
+      <x>80</x>
+      <y>170</y>
+      <width>191</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Next</string>
+     <string>Enter student names and scores:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="StudentData">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>170</y>
+      <width>311</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Enter student names and scores: (separate names and scores by commas, and put one student on each line)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>280</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculate Grade Report</string>
     </property>
    </widget>
   </widget>
@@ -69,7 +98,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>757</width>
+     <width>795</width>
      <height>26</height>
     </rect>
    </property>
