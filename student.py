@@ -2,6 +2,7 @@ class Student:
     def __init__(self, name, score):
         self.__name = name
         self.__score = score
+        self.__grade = ''
     def get_name(self):
         return self.__name
     def get_score(self):
@@ -11,8 +12,8 @@ class Student:
     def set_score(self, score):
         pass
     def set_grade(self, grade):
-        pass
+        self.__grade = grade
     def get_grade(self):
-        pass
+        return self.__grade
     def __str__(self):
         return f''
