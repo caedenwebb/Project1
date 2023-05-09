@@ -16,7 +16,9 @@ import control
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(926, 683)
+        MainWindow.resize(900, 900)
+        MainWindow.setMinimumSize(QtCore.QSize(900, 900))
+        MainWindow.setMaximumSize(QtCore.QSize(900, 900))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.title = QtWidgets.QLabel(self.centralwidget)
@@ -31,10 +33,10 @@ class Ui_MainWindow(object):
         self.calculateButton = QtWidgets.QPushButton(self.centralwidget)
         self.calculateButton.setGeometry(QtCore.QRect(520, 180, 161, 31))
         self.calculateButton.setObjectName("calculateButton")
-        self.calculateButton.clicked.connect(lambda:control.calculate_grades(self))
+        self.calculateButton.clicked.connect(lambda: control.calculate_grades(self))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 926, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 900, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
