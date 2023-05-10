@@ -1,8 +1,10 @@
 from student import Student
 
+from main import Ui_MainWindow
+
 students = [] #creates a list to store student objects
 
-def add_student(window) -> None:
+def add_student(window: Ui_MainWindow) -> None:
     '''
     Adds a Student
     :param window: Takes in the MainWindow
@@ -66,7 +68,7 @@ def add_student(window) -> None:
         window.studentGradesList.setText(window.studentGradesList.toPlainText() + f'{student.get_grade()}\n')
     window.nameInput.setText('')
     window.scoreInput.setText('')
-def delete_student(window) -> None:
+def delete_student(window: Ui_MainWindow) -> None:
     '''
     Deletes a student
     :param window: takes in the MainWindow
