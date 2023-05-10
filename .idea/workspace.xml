@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="GUI Complete; calculate_grades() function removed; add and remove student functions added">
+    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="Delete Student function complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/control.py" afterDir="false" />
     </list>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683694757300</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Delete Student function complete">
+      <created>1683695504886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683695504886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +106,7 @@
     <MESSAGE value="Number of Students feature removed" />
     <MESSAGE value="Window nonresizeable" />
     <MESSAGE value="GUI Complete; calculate_grades() function removed; add and remove student functions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI Complete; calculate_grades() function removed; add and remove student functions added" />
+    <MESSAGE value="Delete Student function complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Student function complete" />
   </component>
 </project>

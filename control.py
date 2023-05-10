@@ -2,13 +2,13 @@ from student import Student
 
 students = [] #creates a list to store student objects
 
-def add_student(window):
-    scores = []  # creates a list to store students scores
+def add_student(window) -> None:
     '''
     Adds a Student
     :param window: Takes in the MainWindow
     :return: None
     '''
+    scores = []  # creates a list to store students scores
     s = Student(window.nameInput.text(), float(window.scoreInput.text()))
     students.append(s)
     for student in students:
@@ -33,7 +33,9 @@ def add_student(window):
         window.studentNamesList.setText(window.studentNamesList.toPlainText() + f'{student.get_name()}\n')
         window.studentScoresList.setText(window.studentScoresList.toPlainText() + f'{student.get_score()}\n')
         window.studentGradesList.setText(window.studentGradesList.toPlainText() + f'{student.get_grade()}\n')
-def delete_student(window):
+    window.nameInput.setText('')
+    window.scoreInput.setText('')
+def delete_student(window) -> None:
     '''
     Deletes a student
     :param window: takes in the MainWindow
@@ -73,13 +75,19 @@ def delete_student(window):
             window.studentNamesList.setText(window.studentNamesList.toPlainText() + f'{student.get_name()}\n')
             window.studentScoresList.setText(window.studentScoresList.toPlainText() + f'{student.get_score()}\n')
             window.studentGradesList.setText(window.studentGradesList.toPlainText() + f'{student.get_grade()}\n')
+        window.nameInput.setText('')
+        window.scoreInput.setText('')
     elif (studentFound == True and len(students) == 0):
         students.clear()
+        window.nameInput.setText('')
+        window.scoreInput.setText('')
         window.studentNamesList.setText('')
         window.studentScoresList.setText('')
         window.studentGradesList.setText('')
     else:
         window.errorLabel.setText(f'Error: Student "{window.nameInput.text()}" not found.')
+        window.nameInput.setText('')
+        window.scoreInput.setText('')
 
 
 
