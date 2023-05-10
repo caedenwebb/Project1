@@ -57,6 +57,17 @@ class Student:
         """
         self.score = score
 
+    def get_score(self) -> float:
+        """
+        Returns the score of the student.
+
+        Returns:
+        ----------
+        float
+            The score of the student.
+        """
+        return self.score
+
     def set_grade(self, grade: str) -> None:
         """
         Sets the grade of the student.

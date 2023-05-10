@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8da618e7-1a8a-47fc-9b9d-eab582bf5dd4" name="Changes" comment="changes to get_grade function and set_grade function to return self.__grade">
-      <change beforePath="$PROJECT_DIR$/.idea/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
-    </list>
+    <list default="true" id="8da618e7-1a8a-47fc-9b9d-eab582bf5dd4" name="Changes" comment="Added type hinting and docstrings to student.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683307192704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added type hinting and docstrings to student.py">
+      <created>1683663042706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683663042706</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +90,7 @@
     <MESSAGE value="def __str__" />
     <MESSAGE value="change to init function adding name, score" />
     <MESSAGE value="changes to get_grade function and set_grade function to return self.__grade" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to get_grade function and set_grade function to return self.__grade" />
+    <MESSAGE value="Added type hinting and docstrings to student.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added type hinting and docstrings to student.py" />
   </component>
 </project>
