@@ -8,6 +8,7 @@ def add_student(window) -> None:
     :param window: Takes in the MainWindow
     :return: None
     '''
+    window.errorLabel.setText('')
     scores = []  # creates a list to store students scores
     if (window.scoreInput.text() == '' and window.nameInput.text() == ''):
         window.errorLabel.setText('Error: Please enter a name and score.')
@@ -74,6 +75,7 @@ def delete_student(window) -> None:
     scores = []
     i = 0
     studentFound = False
+    window.errorLabel.setText('')
 
     if (window.nameInput.text() == ''):
         window.errorLabel.setText('Error: Please enter a name.')
