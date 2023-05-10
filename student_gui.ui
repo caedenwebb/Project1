@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
+    <width>900</width>
     <height>500</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1000</width>
+    <width>900</width>
     <height>500</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1000</width>
+    <width>900</width>
     <height>500</height>
    </size>
   </property>
@@ -29,8 +29,8 @@
    <widget class="QLabel" name="TitleLabel">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>30</y>
+      <x>380</x>
+      <y>20</y>
       <width>121</width>
       <height>16</height>
      </rect>
@@ -42,22 +42,22 @@
    <widget class="QPushButton" name="AddStudentButton">
     <property name="geometry">
      <rect>
-      <x>730</x>
+      <x>530</x>
       <y>290</y>
-      <width>93</width>
+      <width>141</width>
       <height>28</height>
      </rect>
     </property>
     <property name="text">
-     <string>Add Student</string>
+     <string>Add/Change Student</string>
     </property>
    </widget>
    <widget class="QPushButton" name="DeleteStudentButton">
     <property name="geometry">
      <rect>
-      <x>880</x>
+      <x>690</x>
       <y>290</y>
-      <width>93</width>
+      <width>141</width>
       <height>28</height>
      </rect>
     </property>
@@ -68,7 +68,7 @@
    <widget class="QLabel" name="AddDeleteLabel">
     <property name="geometry">
      <rect>
-      <x>800</x>
+      <x>640</x>
       <y>130</y>
       <width>111</width>
       <height>16</height>
@@ -81,7 +81,7 @@
    <widget class="QLabel" name="NameLabel">
     <property name="geometry">
      <rect>
-      <x>730</x>
+      <x>570</x>
       <y>200</y>
       <width>55</width>
       <height>16</height>
@@ -94,7 +94,7 @@
    <widget class="QLineEdit" name="nameInput">
     <property name="geometry">
      <rect>
-      <x>770</x>
+      <x>610</x>
       <y>200</y>
       <width>221</width>
       <height>22</height>
@@ -104,7 +104,7 @@
    <widget class="QLabel" name="ScoreLabel">
     <property name="geometry">
      <rect>
-      <x>730</x>
+      <x>570</x>
       <y>240</y>
       <width>55</width>
       <height>16</height>
@@ -117,7 +117,7 @@
    <widget class="QLineEdit" name="scoreInput">
     <property name="geometry">
      <rect>
-      <x>770</x>
+      <x>610</x>
       <y>240</y>
       <width>221</width>
       <height>22</height>
@@ -127,10 +127,10 @@
    <widget class="QLabel" name="errorLabel">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>440</x>
       <y>370</y>
       <width>401</width>
-      <height>16</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -140,7 +140,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>170</x>
       <y>60</y>
       <width>81</width>
       <height>16</height>
@@ -225,7 +225,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1000</width>
+     <width>900</width>
      <height>26</height>
     </rect>
    </property>

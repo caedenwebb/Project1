@@ -9,8 +9,30 @@ def add_student(window) -> None:
     :return: None
     '''
     scores = []  # creates a list to store students scores
-    s = Student(window.nameInput.text(), float(window.scoreInput.text()))
-    students.append(s)
+    score = 0.0
+    try:
+        score = float(window.scoreInput.text())
+    except:
+        window.errorLabel.setText(f'Error: Please enter an integer or decimal value to the score field.')
+        window.scoreInput.setText('')
+        return None
+    check_if_student_exists = False
+    check_if_student_first = False
+    if (students == []):
+        s = Student(window.nameInput.text(), score)
+        students.append(s)
+        check_if_student_first = True
+    else:
+        for student in students:
+            if (student.get_name() == window.nameInput.text()):
+                check_if_student_exists = True
+                student.set_score(score)
+                break
+            else:
+                continue
+    if (check_if_student_exists == False and check_if_student_first == False):
+        s = Student(window.nameInput.text(), score)
+        students.append(s)
     for student in students:
         scores.append(student.get_score())
     best = max(scores)
