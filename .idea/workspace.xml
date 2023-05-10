@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="Window nonresizeable" />
+    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="Window nonresizeable">
+      <change afterPath="$PROJECT_DIR$/student_gui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +30,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/caede/Desktop/Project_Test&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,6 +71,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Draft GUI, calculate_grade function, and draft Student class updated as of 5/5/2023" />
