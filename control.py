@@ -9,7 +9,6 @@ def add_student(window) -> None:
     :return: None
     '''
     scores = []  # creates a list to store students scores
-    score = 0.0
     if (window.scoreInput.text() == '' and window.nameInput.text() == ''):
         window.errorLabel.setText('Error: Please enter a name and score.')
         return None
