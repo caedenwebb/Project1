@@ -10,6 +10,15 @@ def add_student(window) -> None:
     '''
     scores = []  # creates a list to store students scores
     score = 0.0
+    if (window.scoreInput.text() == '' and window.nameInput.text() == ''):
+        window.errorLabel.setText('Error: Please enter a name and score.')
+        return None
+    elif (window.nameInput.text() == ''):
+        window.errorLabel.setText('Error: Please enter a name.')
+        return None
+    elif (window.scoreInput.text() == ''):
+        window.errorLabel.setText('Error: Please enter a score.')
+        return None
     try:
         score = float(window.scoreInput.text())
     except:
@@ -66,6 +75,14 @@ def delete_student(window) -> None:
     scores = []
     i = 0
     studentFound = False
+
+    if (window.nameInput.text() == ''):
+        window.errorLabel.setText('Error: Please enter a name.')
+        window.scoreInput.setText('')
+        return None
+    else:
+        pass
+
     for student in students:
         if (student.get_name() == window.nameInput.text()):
             studentFound = True

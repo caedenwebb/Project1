@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="textboxes cleared when user enters data">
+    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_gui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/student_gui.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683695661118</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button">
+      <created>1683696888184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683696888184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +122,7 @@
     <MESSAGE value="GUI Complete; calculate_grades() function removed; add and remove student functions added" />
     <MESSAGE value="Delete Student function complete" />
     <MESSAGE value="textboxes cleared when user enters data" />
-    <option name="LAST_COMMIT_MESSAGE" value="textboxes cleared when user enters data" />
+    <MESSAGE value="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button" />
   </component>
 </project>
