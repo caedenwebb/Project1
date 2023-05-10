@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="Window nonresizeable">
-      <change afterPath="$PROJECT_DIR$/student_gui.ui" afterDir="false" />
+    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="GUI Complete; calculate_grades() function removed; add and remove student functions added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683662161574</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GUI Complete; calculate_grades() function removed; add and remove student functions added">
+      <created>1683694757300</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683694757300</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +91,7 @@
     <MESSAGE value="Draft GUI, calculate_grade function, and draft Student class updated as of 5/5/2023" />
     <MESSAGE value="Number of Students feature removed" />
     <MESSAGE value="Window nonresizeable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Window nonresizeable" />
+    <MESSAGE value="GUI Complete; calculate_grades() function removed; add and remove student functions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI Complete; calculate_grades() function removed; add and remove student functions added" />
   </component>
 </project>
