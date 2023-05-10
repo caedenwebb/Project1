@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/control.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PLzppbfIkUd2EXuifoHwYQn7oR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/caede/Desktop/Project_Test&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caede\Desktop\Project1\Project1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="381c90b1-84dd-4ba7-bc36-993ecd640d0c" name="Changes" comment="" />
+      <created>1683251337017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683251337017</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Draft GUI, calculate_grade function, and draft Student class updated as of 5/5/2023">
+      <created>1683307733850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683307733850</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Number of Students feature removed">
+      <created>1683308483029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683308483029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Window nonresizeable">
+      <created>1683662161574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683662161574</updated>
+    </task>
+    <task id="LOCAL-00004" summary="GUI Complete; calculate_grades() function removed; add and remove student functions added">
+      <created>1683694757300</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683694757300</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Delete Student function complete">
+      <created>1683695504886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683695504886</updated>
+    </task>
+    <task id="LOCAL-00006" summary="textboxes cleared when user enters data">
+      <created>1683695661118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683695661118</updated>
+    </task>
+    <task id="LOCAL-00007" summary="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button">
+      <created>1683696888184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683696888184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Draft GUI, calculate_grade function, and draft Student class updated as of 5/5/2023" />
+    <MESSAGE value="Number of Students feature removed" />
+    <MESSAGE value="Window nonresizeable" />
+    <MESSAGE value="GUI Complete; calculate_grades() function removed; add and remove student functions added" />
+    <MESSAGE value="Delete Student function complete" />
+    <MESSAGE value="textboxes cleared when user enters data" />
+    <MESSAGE value="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception handling and input verification; user may alter scores previously entered by typing in the name of the student and the score and pressing the add/change student button" />
+  </component>
+</project>
