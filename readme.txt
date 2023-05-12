@@ -1,2 +1,1 @@
-This project is based on Lab 02 of this course. It uses the PyQt5 framework for the GUI, and the GUI was developed using
-the QtDesigner application.
+This project is based on Lab 02 of this course, and uses a modified form of the code to determine the final grade of each student. It uses the PyQt5 framework for the GUI, and the GUI was developed using the QtDesigner application.
